@@ -28,8 +28,8 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/${USER_NAME}/${POD_NAME}.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
-
+  s.ios.deployment_target = '14.0'
+  s.swift_version = '5.0'
   s.source_files = '${POD_NAME}/Classes/**/*'
   
   # s.resource_bundles = {
